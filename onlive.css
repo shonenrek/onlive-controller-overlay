@@ -140,10 +140,13 @@ start and select buttons. */
     position: absolute;
     width: 205px;
     height: 19px;
-    top: 250px;
-    left: 291px;
+    top: 130px;
+    left: 357px;
 }
-/* Setting the size and CSS sprite for the start adn select buttons */
+/* Setting the size and CSS sprite for the start adn select buttons 
+
+Back and start can be separate sprites
+*/
 .custom .back, .custom .start{
     background: url(https://raw.githubusercontent.com/shonenrek/onlive-controller-overlay/main/start.png);
     width: 41px;
@@ -167,7 +170,7 @@ start and select buttons. */
     position: absolute;
     width: 220px;
     height: 221px;
-    top: 156px;
+    top: 62px;
     left: 538px;
 }
 /* base class used to simplify the sprite mapping */
@@ -223,20 +226,20 @@ the CSS inline. */
     background-position-x: -211px;
 }
 .custom .stick.left{
-    top: 0;
+    top: -85;
     left: 0;
 }
 .custom .stick.right{
-    top: calc(100% - 105px);
-    left: calc(100% - 105px);
+    top: calc(100% - 188px);
+    left: calc(100% - 44px);
 }
-/* Dpad possitioning and sizing */
+/* Dpad positioning and sizing */
 .custom .dpad{
     position: absolute;
     width: 193px;
     height: 192px;
-    top: 192px;
-    left: 74px;
+    top: 92px;
+    left: 143px;
 }
 .custom .face{
     background: url(https://raw.githubusercontent.com/shonenrek/onlive-controller-overlay/main/d-pad.png);
