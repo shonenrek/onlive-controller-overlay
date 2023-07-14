@@ -175,7 +175,7 @@ start and select buttons. */
     position: absolute;
     width:62px;
     height:62px;
-    background: url(https://raw.githubusercontent.com/shonenrek/onlive-controller-overlay/main/Y%20button.png);
+    background: url(https://raw.githubusercontent.com/shonenrek/onlive-controller-overlay/main/Face%20buttons.png);
 }
 /* This will need to be swapped with a four-button cluster once everything else is finished*/
 .custom .button.pressed{
