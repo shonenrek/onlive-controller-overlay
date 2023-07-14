@@ -61,8 +61,8 @@ do so via my paypal: https://paypal.me/mrmcpowned
     left: 99px;
 }
 .custom .trigger{/* These are the actual triggers themselves */
-    width:86px;
-    height:65px;
+    width:62px;
+    height:84px;
     background: url(https://raw.githubusercontent.com/shonenrek/onlive-controller-overlay/main/RT.png);
     opacity: 0;
 }
@@ -80,8 +80,8 @@ above to achieve the desired position. */
 /* The bumpers follow the same methodology as the triggers in terms of
 placement */
 .custom .bumper{
-    width: 89px;
-    height: 28px;
+    width: 215px;
+    height: 112px;
     background: url(https://raw.githubusercontent.com/shonenrek/onlive-controller-overlay/main/left%20bumper.png);
     opacity: 0;
 }
@@ -146,8 +146,8 @@ start and select buttons. */
 /* Setting the size and CSS sprite for the start adn select buttons */
 .custom .back, .custom .start{
     background: url(https://raw.githubusercontent.com/shonenrek/onlive-controller-overlay/main/start.png);
-    width: 34px;
-    height: 19px;
+    width: 41px;
+    height: 45px;
 }
 .custom .back.pressed, .custom .start.pressed{
     background-position-y: -21px;
@@ -165,8 +165,8 @@ start and select buttons. */
 /* Positioning and size of the container for the face buttons */
 .custom .abxy{
     position: absolute;
-    width: 204px;
-    height: 205px;
+    width: 220px;
+    height: 221px;
     top: 156px;
     left: 538px;
 }
@@ -177,7 +177,7 @@ start and select buttons. */
     height:62px;
     background: url(https://raw.githubusercontent.com/shonenrek/onlive-controller-overlay/main/Face%20buttons.png);
 }
-/* This will need to be swapped with a four-button cluster once everything else is finished*/
+
 .custom .button.pressed{
     background-position-y: -64px;
     margin-top: 5px;
@@ -213,8 +213,8 @@ the CSS inline. */
 .custom .stick{
     position: absolute;
     background: url(https://raw.githubusercontent.com/shonenrek/onlive-controller-overlay/main/right%20stick.png);
-    height:105px;
-    width: 105px;
+    height:202px;
+    width: 201px;
 }
 .custom .stick.pressed.left{
     background-position-x: -106px;
@@ -233,8 +233,8 @@ the CSS inline. */
 /* Dpad possitioning and sizing */
 .custom .dpad{
     position: absolute;
-    width: 140px;
-    height: 132px;
+    width: 193px;
+    height: 192px;
     top: 192px;
     left: 74px;
 }
