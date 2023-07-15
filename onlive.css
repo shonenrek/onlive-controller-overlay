@@ -63,7 +63,7 @@ do so via my paypal: https://paypal.me/mrmcpowned
 .custom .trigger{/* These are the actual triggers themselves */
     width:62px;
     height:84px;
-    background: url(https://raw.githubusercontent.com/shonenrek/onlive-controller-overlay/main/RT.png);
+    background: url(https://raw.githubusercontent.com/shonenrek/onlive-controller-overlay/main/Triggers.png);
     opacity: 0;
 }
 /* The left and right classes below are used to position the triggers
@@ -82,7 +82,7 @@ placement */
 .custom .bumper{
     width: 215px;
     height: 112px;
-    background: url(https://raw.githubusercontent.com/shonenrek/onlive-controller-overlay/main/left%20bumper.png);
+    background: url(https://raw.githubusercontent.com/shonenrek/onlive-controller-overlay/main/Bumper.png);
     opacity: 0;
 }
 .custom .bumpers{
@@ -113,7 +113,7 @@ PS3 controller but it'd be pointless for me to change the HTML for
 something as pedantic as a name. */
 .custom .quadrant{
     position: absolute;
-    background: url(https://raw.githubusercontent.com/shonenrek/onlive-controller-overlay/main/player%20indicator.png);
+    background: url(https://raw.githubusercontent.com/shonenrek/onlive-controller-overlay/main/Player.png);
     height: 17px;
     width: 111px;
     top: 140px;
@@ -148,7 +148,7 @@ start and select buttons. */
 Back and start can be separate sprites
 */
 .custom .back, .custom .start{
-    background: url(https://raw.githubusercontent.com/shonenrek/onlive-controller-overlay/main/start.png);
+    background: url(https://raw.githubusercontent.com/shonenrek/onlive-controller-overlay/main/Arrows.png);
     width: 41px;
     height: 45px;
 }
@@ -178,7 +178,7 @@ Back and start can be separate sprites
     position: absolute;
     width:62px;
     height:62px;
-    background: url(https://raw.githubusercontent.com/shonenrek/onlive-controller-overlay/main/Face%20buttons.png);
+    background: url(https://raw.githubusercontent.com/shonenrek/onlive-controller-overlay/main/ABXY.png);
 }
 
 .custom .button.pressed{
@@ -215,7 +215,7 @@ the CSS inline. */
 }
 .custom .stick{
     position: absolute;
-    background: url(https://raw.githubusercontent.com/shonenrek/onlive-controller-overlay/main/right%20stick.png);
+    background: url(https://raw.githubusercontent.com/shonenrek/onlive-controller-overlay/main/Sticks.png);
     height:202px;
     width: 201px;
 }
@@ -242,7 +242,7 @@ the CSS inline. */
     left: 96px;
 }
 .custom .face{
-    background: url(https://raw.githubusercontent.com/shonenrek/onlive-controller-overlay/main/d-pad.png);
+    background: url(https://raw.githubusercontent.com/shonenrek/onlive-controller-overlay/main/POV.png);
     position: absolute;
 }
 .custom .face.up, .custom .face.down{
