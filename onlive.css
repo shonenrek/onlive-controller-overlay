@@ -138,9 +138,9 @@ NOTE: Player orderin starts at 0, so p0 = Player 1 Leaving this alone until ever
 start and select buttons. */
 .custom .arrows{
     position: absolute;
-    width: 205px;
-    height: 19px;
-    top: 130px;
+    width: 221px;
+    height: 36px;
+    top: 128px;
     left: 357px;
 }
 /* Setting the size and CSS sprite for the start adn select buttons 
@@ -153,17 +153,17 @@ Back and start can be separate sprites
     height: 45px;
 }
 .custom .back.pressed, .custom .start.pressed{
-    background-position-y: -21px;
+    background-position-y: -55px;
     margin-top: 2px;
 }
 .custom .back{
     float: left;
-    width: 38px;
+    width: 42px;
 }
 .custom .start{
     float: right;
-    width: 36px;
-    background-position: 37px 0;
+    width: 42px;
+    background-position: 42px 1px;
 }
 /* Positioning and size of the container for the face buttons */
 .custom .abxy{
@@ -182,8 +182,8 @@ Back and start can be separate sprites
 }
 
 .custom .button.pressed{
-    background-position-y: -64px;
-    margin-top: 5px;
+    background-position-y: -80px;
+    margin-top: 0px;
 }
 .custom .a{
     background-position: 0px 0;
