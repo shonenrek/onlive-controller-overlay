@@ -202,7 +202,7 @@ Back and start can be separate sprites
 }
 .custom .y{
     background-position: 70px 0;
-	top: -20px
+	top: -20px;
     left: 171px;
 }
 /* Analog sticks follow the same principles as the triggers in terms of positioning
@@ -258,22 +258,22 @@ the CSS inline. */
 .custom .face.up{
     left: 70px;
     top: 0;
-    background-position: 123px 0px;
+    background-position: 1px -3px;
 }
 .custom .face.down{
     left: 69px;
     top: 114px;
-    background-position: 124px -114px;
+    background-position: -66px 1px;
 }
 .custom .face.left{
     top: 69px;
     left: 0;
-    background-position: 193px -69px;
+    background-position: 170px -13px;
 }
 .custom .face.right{
     top: 69px;
     right: 0px;
-    background-position: 78px -69px;
+    background-position: 78px -14px;
 }
 .custom .face.pressed{
     margin-top: 5px;
