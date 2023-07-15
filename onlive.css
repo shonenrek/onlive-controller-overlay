@@ -196,12 +196,14 @@ Back and start can be separate sprites
     right: -98px;
 }
 .custom .x{
-    background-position: 0 0;
-    top: 71px;
+    background-position: 155px 0;
+    top: 56px;
+	left: 96px;
 }
 .custom .y{
-    background-position: -63px 0;
-    left: 71px;
+    background-position: 70px 0;
+	top: -20px
+    left: 171px;
 }
 /* Analog sticks follow the same principles as the triggers in terms of positioning
 Note that the rotation of the sticks in hard coded with javascript, so it applies 
