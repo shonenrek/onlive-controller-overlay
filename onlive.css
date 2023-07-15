@@ -43,12 +43,12 @@ do so via my paypal: https://paypal.me/mrmcpowned
     and you can observe it as an example. The sticks, buttons, and directional arrows are missing
     because their appropriate elements will be incorperated when their styling is defined below.
     The entirity of the skin's visual styling is done via background images and CSS sprites. */ 
-    background: url(https://raw.githubusercontent.com/shonenrek/onlive-controller-overlay/main/controller%20body1.png); 
+    background: url(https://raw.githubusercontent.com/shonenrek/onlive-controller-overlay/main/reference_controller%20body.png); 
     height: 656px;
     width: 936px;
 }
 .custom.disconnected { /* This class shows an image when the controller is disconnected */
-    background: url(https://raw.githubusercontent.com/shonenrek/onlive-controller-overlay/cb5e3e1dfd74795e102db8d6a0809d578d17cc11/controller%20body.png);
+    background: url(https://raw.githubusercontent.com/shonenrek/onlive-controller-overlay/main/red_reference%20photo.png);
 }
 /* This hides the controller's button when disconnected so only the background image remains */ 
 .custom.disconnected div {
