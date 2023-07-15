@@ -226,8 +226,8 @@ the CSS inline. */
     background-position-x: -211px;
 }
 .custom .stick.left{
-    top: -31;
-    left: -31;
+    top: -31px;
+    left: -31px;
 }
 .custom .stick.right{
     top: calc(100% - 169px);
@@ -238,40 +238,40 @@ the CSS inline. */
     position: absolute;
     width: 193px;
     height: 192px;
-    top: 92px;
-    left: 143px;
+    top: 67px;
+    left: 96px;
 }
 .custom .face{
     background: url(https://raw.githubusercontent.com/shonenrek/onlive-controller-overlay/main/d-pad.png);
     position: absolute;
 }
 .custom .face.up, .custom .face.down{
-    width: 38px;
-    height: 52px;
+    width: 54px;
+    height: 78px;
 }
 .custom .face.left, .custom .face.right{
-    width: 52px;
-    height: 38px;
+    width: 78px;
+    height: 54px;
 }
 .custom .face.up{
-    left: 50px;
+    left: 70px;
     top: 0;
-    background-position: 92px 0px;
+    background-position: 123px 0px;
 }
 .custom .face.down{
-    left: 50px;
-    top: 79px;
-    background-position: 131px 0;
+    left: 69px;
+    top: 114px;
+    background-position: 124px -114px;
 }
 .custom .face.left{
-    top: 47px;
+    top: 69px;
     left: 0;
-    background-position: 0px 0;
+    background-position: 193px -69px;
 }
 .custom .face.right{
-    top: 47px;
+    top: 69px;
     right: 0px;
-    background-position: 53px 0;
+    background-position: 78px -69px;
 }
 .custom .face.pressed{
     margin-top: 5px;
