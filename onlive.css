@@ -208,7 +208,7 @@ Note that the rotation of the sticks in hard coded with javascript, so it applie
 the CSS inline. */
 .custom .sticks{
     position: absolute;
-    width: 460x;
+    width: 460px;
     height: 138px;
     top: 271px;
     left: 238px;
