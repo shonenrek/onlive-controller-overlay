@@ -115,9 +115,9 @@ something as pedantic as a name. */
     position: absolute;
     background: url(https://raw.githubusercontent.com/shonenrek/onlive-controller-overlay/main/Player.png);
     height: 11px;
-    width: 138px;
+    width: 37px;
     top: 243.4px;
-    left: 399px;
+/*    left: 399px;*/
 }
 /* Since the player indicator is just a CSS sprite, we change the 
 position of the background to match the player number.
