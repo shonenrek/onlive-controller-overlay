@@ -124,15 +124,19 @@ position of the background to match the player number.
 NOTE: Player orderin starts at 0, so p0 = Player 1 Leaving this alone until everything else is finished to properly record player number positions*/
 .custom .p0{
     background-position: 0 -55px;
+	left: 399px;
 }
 .custom .p1{
-    background-position: 0 -55px;
+    background-position: -35px -55px;
+	left: 434px;
 }
 .custom .p2{
-    background-position: 0 -55px;
+    background-position: -69px -55px;
+	left: 468px;
 }
 .custom .p3{
-    background-position: 0 -55px;
+    background-position: -101px -55px;
+	left: 500px;
 }
 /* This is to size and position the containing div for the 
 start and select buttons. */
