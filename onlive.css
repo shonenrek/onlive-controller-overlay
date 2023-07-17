@@ -43,7 +43,7 @@ do so via my paypal: https://paypal.me/mrmcpowned
     and you can observe it as an example. The sticks, buttons, and directional arrows are missing
     because their appropriate elements will be incorperated when their styling is defined below.
     The entirity of the skin's visual styling is done via background images and CSS sprites. */ 
-    background: url(https://raw.githubusercontent.com/shonenrek/onlive-controller-overlay/main/teal_controller%20body.png); 
+    background: url(https://raw.githubusercontent.com/shonenrek/onlive-controller-overlay/main/onlive.png); 
     height: 656px;
     width: 936px;
 }
@@ -168,7 +168,7 @@ Back and start can be separate sprites
 .custom .start{
     float: right;
     width: 42px;
-    background-position: 522px -6px;
+    background-position: 524px -6px;
 }
 /* Positioning and size of the container for the face buttons */
 .custom .abxy{
@@ -228,10 +228,10 @@ the CSS inline. */
 	background-position: -15px -12px;
 }
 .custom .stick.pressed.left{
-    background-position-x: -106px;
+    background-position-x: -166px;
 }
 .custom .stick.pressed.right{
-    background-position-x: -142px;
+    background-position-x: -166px;
 }
 .custom .stick.left{
     top: 0px;
@@ -269,21 +269,21 @@ the CSS inline. */
 .custom .face.down{
     left: 69px;
     top: 114px;
-    background-position: -85px -15px;
+    background-position: -86px -15px;
 }
 .custom .face.left{
     top: 69px;
     left: 0;
-    background-position: 94px -15px;
+    background-position: -185px -15px;
 }
 .custom .face.right{
     top: 69px;
     right: 0px;
-    background-position: 97px -72px;
+    background-position: 96px -14px;
 }
 .custom .face.pressed{
-    margin-top: 5px;
-    background-position-y: 52px;
+    margin-top: 3px;
+    background-position-y: 97px;
 }
 /* The following entries are empty because I haven't used them yet, but they
 exist for the purpose of displaying a fightstick. Since fightsticks have 
