@@ -55,13 +55,14 @@ do so via my paypal: https://paypal.me/mrmcpowned
     display: none;
 }
 .custom .triggers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
-    width: 586px;
+    width: 510px;
     height: 65px;
     position: absolute;
-    left: 99px;
+    left: 368px;
+	top: 49px;
 }
 .custom .trigger{/* These are the actual triggers themselves */
-    width:62px;
+    width:63px;
     height:84px;
     background: url(https://raw.githubusercontent.com/shonenrek/onlive-controller-overlay/main/Triggers.png);
     opacity: 0;
@@ -75,6 +76,7 @@ above to achieve the desired position. */
 }
 .custom .trigger.right{
     float: right;
+	background-position: 63px;
 }
 
 /* The bumpers follow the same methodology as the triggers in terms of
@@ -87,10 +89,10 @@ placement */
 }
 .custom .bumpers{
     position: absolute;
-    width: 586px;
+    width: 758px;
     height: 28px;
-    left: 234px;
-    top: 119px;
+    left: 240px;
+    top: 152px;
 }
 .custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
     opacity: 1;
