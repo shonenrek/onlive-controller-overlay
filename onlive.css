@@ -45,7 +45,7 @@ do so via my paypal: https://paypal.me/mrmcpowned
     The entirity of the skin's visual styling is done via background images and CSS sprites. */ 
     background: url(https://raw.githubusercontent.com/shonenrek/onlive-controller-overlay/main/onlive.png); 
     height: 966px;
-    width: 1250x;
+    width: 1250px;
 }
 .custom.disconnected { /* This class shows an image when the controller is disconnected */
     background: url(https://raw.githubusercontent.com/shonenrek/onlive-controller-overlay/main/red_reference%20photo.png);
@@ -89,8 +89,8 @@ placement */
     position: absolute;
     width: 586px;
     height: 28px;
-    left: 99px;
-    top: 72px;
+    left: 234px;
+    top: 119px;
 }
 .custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
     opacity: 1;
@@ -100,11 +100,12 @@ placement */
   and I can just rotate them in the browser? Also, note that you most likely won't need
   to use a browser speficic prefix unless it's something that is indeed browser specific.
   NOTE: CLR Browser is basically chrome, so you use '-webkit-' as the browser prefix. */
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
+    
     float: left;
 }
 .custom .bumper.right{
+	-webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
     float: right;
 }
 /* This bit of code is for the player indicator, which is represented in
@@ -116,7 +117,7 @@ something as pedantic as a name. */
     background: url(https://raw.githubusercontent.com/shonenrek/onlive-controller-overlay/main/Player.png);
     height: 11px;
     width: 37px;
-    top: 243.4px;
+    top: 413px;
 /*    left: 399px;*/
 }
 /* Since the player indicator is just a CSS sprite, we change the 
@@ -124,19 +125,19 @@ position of the background to match the player number.
 NOTE: Player orderin starts at 0, so p0 = Player 1 Leaving this alone until everything else is finished to properly record player number positions*/
 .custom .p0{
     background-position: 0 -55px;
-	left: 399px;
+	left: 551px;
 }
 .custom .p1{
     background-position: -35px -55px;
-	left: 434px;
+	left: 586px;
 }
 .custom .p2{
     background-position: -69px -55px;
-	left: 468px;
+	left: 620px;
 }
 .custom .p3{
     background-position: -101px -55px;
-	left: 500px;
+	left: 652px;
 }
 /* This is to size and position the containing div for the 
 start and select buttons. */
