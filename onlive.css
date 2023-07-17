@@ -45,7 +45,7 @@ do so via my paypal: https://paypal.me/mrmcpowned
     The entirity of the skin's visual styling is done via background images and CSS sprites. */ 
     background: url(https://raw.githubusercontent.com/shonenrek/onlive-controller-overlay/main/onlive.png); 
     height: 966px;
-    width: 1250x;
+    width: 1250px;
 }
 .custom.disconnected { /* This class shows an image when the controller is disconnected */
     background: url(https://raw.githubusercontent.com/shonenrek/onlive-controller-overlay/main/red_reference%20photo.png);
