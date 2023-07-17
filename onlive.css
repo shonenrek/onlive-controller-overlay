@@ -45,7 +45,7 @@ do so via my paypal: https://paypal.me/mrmcpowned
     The entirity of the skin's visual styling is done via background images and CSS sprites. */ 
     background: url(https://raw.githubusercontent.com/shonenrek/onlive-controller-overlay/main/onlive.png); 
     height: 966px;
-    width: 1250px;
+    width: 1250x;
 }
 .custom.disconnected { /* This class shows an image when the controller is disconnected */
     background: url(https://raw.githubusercontent.com/shonenrek/onlive-controller-overlay/main/red_reference%20photo.png);
@@ -144,8 +144,8 @@ start and select buttons. */
     position: absolute;
     width: 221px;
     height: 36px;
-    top: 128px;
-    left: 357px;
+    top: 298px;
+    left: 509px;
 }
 /* Setting the size and CSS sprite for the start adn select buttons 
 
@@ -175,8 +175,8 @@ Back and start can be separate sprites
     position: absolute;
     width: 220px;
     height: 221px;
-    top: 62px;
-    left: 538px;
+    top: 232px;
+    left: 690px;
 }
 /* base class used to simplify the sprite mapping */
 .custom .button{
@@ -217,8 +217,8 @@ the CSS inline. */
     position: absolute;
     width: 460px;
     height: 138px;
-    top: 271px;
-    left: 238px;
+    top: 441px;
+    left: 390px;
 }
 .custom .stick{
     position: absolute;
@@ -246,8 +246,8 @@ the CSS inline. */
     position: absolute;
     width: 193px;
     height: 192px;
-    top: 67px;
-    left: 96px;
+    top: 237px;
+    left: 248px;
 }
 .custom .face{
     background: url(https://raw.githubusercontent.com/shonenrek/onlive-controller-overlay/main/POV.png);
@@ -274,7 +274,7 @@ the CSS inline. */
 .custom .face.left{
     top: 69px;
     left: 0;
-    background-position: -185px -15px;
+    background-position: -154px -15px;
 }
 .custom .face.right{
     top: 69px;
