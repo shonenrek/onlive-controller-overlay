@@ -157,17 +157,18 @@ Back and start can be separate sprites
     height: 45px;
 }
 .custom .back.pressed, .custom .start.pressed{
-    background-position-y: -55px;
-    margin-top: 2px;
+    background-position-y: -61px;
+    margin-top: 1px;
 }
 .custom .back{
     float: left;
     width: 42px;
+	background-position: -7px -7px;
 }
 .custom .start{
     float: right;
     width: 42px;
-    background-position: 42px 1px;
+    background-position: 522px -6px;
 }
 /* Positioning and size of the container for the face buttons */
 .custom .abxy{
@@ -186,26 +187,26 @@ Back and start can be separate sprites
 }
 
 .custom .button.pressed{
-    background-position-y: -80px;
+    background-position-y: -90px;
     margin-top: 0px;
 }
 .custom .a{
-    background-position: 0px 0;
+    background-position: -14px -10px;
     top: 133px;
     left: 172px;
 }
 .custom .b{
-    background-position: 240px 0;
+    background-position: 260px -10px;
     top: 57px;
     right: -98px;
 }
 .custom .x{
-    background-position: 155px 0;
+    background-position: 175px -10px;
     top: 56px;
 	left: 96px;
 }
 .custom .y{
-    background-position: 70px 0;
+    background-position: 90px -10px;
 	top: -20px;
     left: 171px;
 }
@@ -222,8 +223,9 @@ the CSS inline. */
 .custom .stick{
     position: absolute;
     background: url(https://raw.githubusercontent.com/shonenrek/onlive-controller-overlay/main/Sticks.png);
-    height:137px;
+    height:144px;
     width: 144px;
+	background-position: -15px -12px;
 }
 .custom .stick.pressed.left{
     background-position-x: -106px;
@@ -233,11 +235,11 @@ the CSS inline. */
 }
 .custom .stick.left{
     top: 0px;
-    left: 1px;
+    left: -3px;
 }
 .custom .stick.right{
     top: calc(100% - 138px);
-    left: calc(100% - 138px);
+    left: calc(100% - 142px);
 }
 /* Dpad positioning and sizing */
 .custom .dpad{
@@ -262,22 +264,22 @@ the CSS inline. */
 .custom .face.up{
     left: 70px;
     top: 0;
-    background-position: 1px -3px;
+    background-position: -20px -16px;
 }
 .custom .face.down{
     left: 69px;
     top: 114px;
-    background-position: -66px 1px;
+    background-position: -85px -15px;
 }
 .custom .face.left{
     top: 69px;
     left: 0;
-    background-position: 170px -13px;
+    background-position: 94px -15px;
 }
 .custom .face.right{
     top: 69px;
     right: 0px;
-    background-position: 78px -14px;
+    background-position: 97px -72px;
 }
 .custom .face.pressed{
     margin-top: 5px;
